@@ -8,7 +8,7 @@ See the Instructable for information on setting up a system to run this code
 Interested in how the code works? 
  - Start with the "PandorasBox.sh" script. This is run at startup, and checks for a
  - high state on the "Shutdown" button. If it reads a high state, this script runs "ButtonPiper.sh", the main
-- script. If it reads a low state, it exits without starting the button's functions. 
+ - script. If it reads a low state, it exits without starting the button's functions. 
 
 "What's the point of checking the button?"
  - If you have these scripts installed on your Raspberry Pi but don't have the buttons connected (for whatever reason)
