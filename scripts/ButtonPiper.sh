@@ -3,6 +3,10 @@
 # This script runs continuously on the Pi. It polls for pushbuttons
 # (by waiting for the GPIO lines to go LOW) and performs
 # different actions depending on which button was pressed
+# Functions provided are "New Song", "New Station", "Vol. Up", "Vol. Down", 
+# "Pause/Play", "Menu", and "Power Down". Note that the "Menu" and 
+# "Power Down" actions come from the same button. A quick press will bring
+# up the menu, while holding for several seconds will shut down the system.
 
 gpio -g mode 2 in 	#Pin 0 on Revision 1 Board
 gpio -g mode 3 in 	#Pin 1 on Revision 1 Board
